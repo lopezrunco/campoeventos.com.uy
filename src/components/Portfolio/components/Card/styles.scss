@@ -1,0 +1,114 @@
+@import '../../../../Variables.scss';
+
+.thumb {
+    overflow: hidden;
+    border-radius: $border-radius;
+    max-height: 250px;
+    margin-bottom: 24px;
+    position: relative;
+    cursor: pointer;
+
+    .hover-content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        text-align: center;
+        transition: $main-transition;
+
+        i,
+        h5 {
+            opacity: 0;
+            transition: $main-transition;
+        }
+
+        i {
+            font-size: 2rem;
+        }
+    }
+
+    &:hover .hover-content {
+        background: $primary-color;
+
+        i,
+        h5 {
+            opacity: 1;
+        }
+    }
+
+    img {
+        width: 100%;
+        // height: fit-content;
+        height: auto;
+    }
+}
+
+.thumb-modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: $dark-bg-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+
+    .content-wrapper {
+        width: 80%;
+        text-align: center;
+
+        h6,
+        p,
+        .separator,
+        .tools {
+            display: none;
+        }
+
+        img {
+            width: 100%;
+            border-radius: $border-radius;
+        }
+
+        .tools {
+            span {
+                display: inline-block;
+                border: 1px solid $primary-color;
+                border-radius: $border-radius;
+                padding: 0.2rem 0.5rem;
+                margin: 0 0.1rem 0.5rem;
+                color: $primary-color;
+                font-size: 0.8rem;
+            }
+        }
+
+        .close-icon {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .thumb-modal {
+        .content-wrapper {
+            text-align: left;
+
+            h6,
+            p,
+            .separator,
+            .tools {
+                display: block;
+            }
+        }
+    }
+}
