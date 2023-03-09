@@ -3,7 +3,6 @@ import React from 'react'
 import { homeMenuItems } from '../../data/home-menu'
 import { Top } from '../../components/Top'
 import { Header } from '../../components/Header'
-import { About } from '../../components/About'
 import { Live } from '../../components/Live'
 import { EventsList } from '../../components/EventsList'
 import { Portfolio } from '../../components/Portfolio'
@@ -29,7 +28,6 @@ export const Home = () => {
             >
                 <Header menuItems={homeMenuItems} />
             </motion.div>
-            <About />
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}

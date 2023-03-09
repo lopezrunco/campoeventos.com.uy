@@ -1,10 +1,8 @@
 export const aboutData = {
     name: 'Campo Eventos',
-    title: ['Soluciones para comercializar.'],
+    title: ['Multimedia agency'],
     resume: [
-        'Tenemos la herramienta para operar desde su casa.',
-        'Pantallas, Remates, Virtuales y Ferias EN VIVO.',
-        'Por TV e Internet, desde cualquier punto del país.',
+        'Company description',
     ],
     contactInfo: [{
         iconClassname: 'fas fa-phone icon',
