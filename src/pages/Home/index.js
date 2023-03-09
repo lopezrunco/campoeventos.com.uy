@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 import { homeMenuItems } from '../../data/home-menu'
+import { Top } from '../../components/Top'
 import { Header } from '../../components/Header'
 import { About } from '../../components/About'
 import { Live } from '../../components/Live'
@@ -19,7 +20,15 @@ export const Home = () => {
                 transition={{ duration: .5 }}
                 viewport={{ once: true }}
             >
-                : <Header menuItems={homeMenuItems} />
+                <Top />
+            </motion.div>
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: .5 }}
+                viewport={{ once: true }}
+            >
+                <Header menuItems={homeMenuItems} />
             </motion.div>
             <About />
             <motion.div

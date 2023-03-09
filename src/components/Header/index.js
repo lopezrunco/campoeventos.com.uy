@@ -11,7 +11,7 @@ export const Header = ({ menuItems }) => {
 
   return (
     <header className="header">
-      <h1 className="main-logo">Motion designer | After Effects | Javascript</h1>
+      <h1 className="main-logo">Campo Eventos</h1>
 
       <i className="fas fa-bars header-toggle" id="nav-toggle" onClick={handleMenuClick}></i>
 
