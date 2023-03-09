@@ -9,7 +9,7 @@ export const EventsList = () => {
   }
 
   return (
-    <section id="events-list" className="events-list">
+    <section id="cartelera" className="events-list">
       <article className="container">
         <div className="row">
           <div className="col">

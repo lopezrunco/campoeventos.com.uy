@@ -3,6 +3,7 @@ import React from 'react'
 import { homeMenuItems } from '../../data/home-menu'
 import { Top } from '../../components/Top'
 import { Header } from '../../components/Header'
+import { Intro } from '../../components/Intro'
 import { Live } from '../../components/Live'
 import { EventsList } from '../../components/EventsList'
 import { Portfolio } from '../../components/Portfolio'
@@ -27,6 +28,14 @@ export const Home = () => {
                 viewport={{ once: true }}
             >
                 <Header menuItems={homeMenuItems} />
+            </motion.div>
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: .5 }}
+                viewport={{ once: true }}
+            >
+                <Intro />
             </motion.div>
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -60,7 +69,7 @@ export const Home = () => {
             >
                 <Footer />
             </motion.div>
-            <ScrollTop scrollTo={'#header'} />
+            <ScrollTop scrollTo={'#inicio'} />
         </React.Fragment>
     )
 }

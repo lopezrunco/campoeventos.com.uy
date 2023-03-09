@@ -1,5 +1,5 @@
 export const homeMenuItems = [
-    { text: 'Inicio', link: '#header', title: 'Inicio' },
-    { text: 'Cartelera', link: '#events-list', title: 'Cartelera' },
+    { text: 'Inicio', link: '#inicio', title: 'Inicio' },
+    { text: 'Cartelera', link: '#cartelera', title: 'Cartelera' },
     { text: 'Portfolio', link: '#portfolio', title: 'Portfolio' },
 ]
