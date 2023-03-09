@@ -7,7 +7,6 @@ import { About } from '../../components/About'
 import { Live } from '../../components/Live'
 import { EventsList } from '../../components/EventsList'
 import { Portfolio } from '../../components/Portfolio'
-import { Collaborations } from '../../components/Collaborations'
 import { ScrollTop } from '../../components/ScrollTop'
 import { Footer } from '../../components/Footer'
 
@@ -61,17 +60,9 @@ export const Home = () => {
                 transition={{ duration: 1 }}
                 viewport={{ once: true }}
             >
-                <Collaborations />
-            </motion.div>
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}
-                viewport={{ once: true }}
-            >
                 <Footer />
             </motion.div>
-            <ScrollTop scrollTo={'#about'} />
+            <ScrollTop scrollTo={'#header'} />
         </React.Fragment>
     )
 }
