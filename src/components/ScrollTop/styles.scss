@@ -11,7 +11,7 @@
     cursor: pointer;
     color: $primary-color;
     font-size: 1.2rem;
-    background-color: $dark-bg-color;
+    background-color: $medium-light-color;
     border-radius: 50%;
     width: 3rem;
     height: 3rem;
@@ -22,6 +22,6 @@
 
     &:hover {
         background-color: $primary-color;
-        color: $light-text-color;
+        color: $light-color;
     }
 }

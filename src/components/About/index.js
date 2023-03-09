@@ -37,6 +37,13 @@ export const About = () => {
 
                     <div className="d-none d-lg-block col-lg-3 profile-img">
                         <h2>About img</h2>
+                        <hr></hr>
+                        <h2>title 2</h2>
+                        <h3>title 3</h3>
+                        <h4>title 4</h4>
+                        <h5>title 5</h5>
+                        <h6>title 6</h6>
+
                     </div>
                 </div>
             </article>

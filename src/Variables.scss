@@ -1,11 +1,16 @@
 $primary-color: #286955;
-$light-color: #fff;
+$primary-dark-color: #353535;
+$primary-medium-dark-color: #3c3c3c;
 
+$light-color: #ffffff;
+$medium-light-color: #f5f5f5;
 
+$dark-color: #2e3a32;
+$medium-dark-color: #888888;
 
-$medium-dark-bg-color: #2d333b;
-$dark-bg-color: #22272e;
-$light-text-color: #c9d3dc;
+$accent-color: #ebcb57;
 
-$border-radius: .2rem;
-$main-transition: .5s;
+$border: 1px solid #ccc;
+$border-radius: 2rem;
+
+$main-transition: all .3s;

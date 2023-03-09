@@ -15,7 +15,7 @@
     gap: 2rem;
 
     p {
-        color: $light-text-color;
+        color: $light-color;
     }
 }
 
@@ -50,7 +50,7 @@ svg {
 
 circle {
     fill: none;
-    stroke: $light-text-color;
+    stroke: $light-color;
     stroke-width: .2rem;
     stroke-linecap: round;
     animation: dash 1.75s ease-in-out infinite;
