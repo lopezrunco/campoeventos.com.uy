@@ -75,6 +75,10 @@ section {
   text-transform: uppercase;
   cursor: pointer;
 
+  i {
+    margin-right: .5rem;
+  }
+
   &.button-dark {
     background-color: $primary-color;
     color: $light-color;
