@@ -1,53 +1,52 @@
 @import '../../../../Variables.scss';
 
-.thumb {
-    overflow: hidden;
-    // border-radius: $lg-border-radius;
-    // max-height: 250px;
-    margin-bottom: 1rem;
-    position: relative;
-    cursor: pointer;
+.events {
+    background-color: $medium-light-color;
 
-    .hover-content {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        padding: 1rem;
+    .item {
+        cursor: pointer;
         text-align: center;
-        transition: $main-transition;
 
-        i,
-        h5,
-        p {
-            opacity: 0;
-            transition: $main-transition;
+        .content {
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 3rem;
+            border-radius: $sm-border-radius;
+            overflow: hidden;
+
+            .thumb {
+                overflow: hidden;
+                position: relative;
+
+                img {
+                    width: 100%;
+                    transition: $main-transition;
+
+                    &:hover {
+                        transform: scale(1.025);
+                    }
+                }
+            }
         }
 
-        i {
-            font-size: 2rem;
+        .description {
+            padding: 2rem;
+
+            small {
+                color: $medium-dark-color;
+            }
+
+            .date {
+                display: block;
+                padding: .2rem .8rem;
+                margin: 1rem auto;
+                border-radius: $sm-border-radius;
+                background-color: $primary-color;
+                color: $light-color;
+                width: fit-content;
+            }
         }
     }
 
-    &:hover .hover-content {
-        background: $primary-color;
-
-        i,
-        h5,
-        p {
-            opacity: 1;
-        }
-    }
-
-    img {
-        width: 100%;
-        // height: fit-content;
-        height: auto;
-    }
 }
 
 .thumb-modal {

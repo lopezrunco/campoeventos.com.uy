@@ -46,6 +46,10 @@ section {
   padding: 5rem 0;
 }
 
+.container {
+  max-width: 1140px;
+}
+
 .separator {
   background-color: $primary-color;
   height: 1px;
@@ -73,6 +77,7 @@ section {
   border-radius: $lg-border-radius;
   font-weight: 700;
   text-transform: uppercase;
+  transition: $main-transition;
   cursor: pointer;
 
   i {
@@ -100,7 +105,7 @@ section {
   }
 
   &.button-dark-outline {
-    background-color: $light-color;
+    background-color: $medium-light-color;
     color: $primary-color;
     border: 2px solid $primary-color;
 

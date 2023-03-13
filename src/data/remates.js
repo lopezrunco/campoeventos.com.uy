@@ -125,46 +125,4 @@ export const rematesData = [
         miniatura: 'plazaruralafiche.jpg',
         publicado: true
     },
-    {
-        dia: '07',
-        mes: '03',
-        horaInicio: '09:00',
-        horaCierre: '12:00',
-        titulo: 'Pantalla Uruguay',
-        lugar: 'Hotel Cottage',
-        medios: 'TV + Internet',
-        organiza: 'Plaza Rural',
-        remata: 'Plaza Rural',
-        enlace: 'N-CjgrZJ2d0',
-        miniatura: 'plazaruralafiche.jpg',
-        publicado: true
-    },
-    {
-        dia: '08',
-        mes: '03',
-        horaInicio: '17:13',
-        horaCierre: '22:00',
-        titulo: 'Pantalla Uruguay',
-        lugar: 'Hotel Conrad',
-        medios: 'TV',
-        organiza: 'Plaza Rural',
-        remata: 'Plaza Rural',
-        enlace: '2dK_aO4kN2g',
-        miniatura: 'elgato.jpg',
-        publicado: true
-    },
-    {
-        dia: '08',
-        mes: '03',
-        horaInicio: '17:13',
-        horaCierre: '22:00',
-        titulo: 'Pantalla Uruguay',
-        lugar: 'Hotel Conrad',
-        medios: 'TV',
-        organiza: 'Plaza Rural',
-        remata: 'Plaza Rural',
-        enlace: '2dK_aO4kN2g',
-        miniatura: 'elgato.jpg',
-        publicado: true
-    },
 ]

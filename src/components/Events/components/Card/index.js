@@ -14,21 +14,19 @@ export const Card = ({ element }) => {
 
     return (
         <React.Fragment>
-            <div className="item fadeElement col-lg-2">
-                <div className="overflow">
-                    <div className="content">
-                        <div className="thumb">
-                            <div className="hover-content" onClick={handleClick}>
-                                <i className="fas fa-search"></i>
-                                <h5>{element.titulo}</h5>
-                                <p>{`${element.dia} de ${getMonth(element.mes)}, - ${element.horaInicio} hrs.`}</p>
-                            </div>
-                            <img
-                                src={`./assets/cartelera/${element.miniatura}`}
-                                alt={element.titulo}
-                                className='thumb-img'
-                            />
-                        </div>
+            <div className="item col-lg-4" onClick={handleClick}>
+                <div className="content">
+                    <div className="thumb">
+                        <img
+                            src={`./assets/cartelera/${element.miniatura}`}
+                            alt={element.titulo}
+                        />
+                    </div>
+                    <div className="description">
+                        <h3>{element.titulo}</h3>
+                        <small>Lugar: {element.lugar} | Organiza: {element.organiza} | Remata: {element.remata}</small>
+                        <p className="date">{`${element.dia} de ${getMonth(element.mes)} a las ${element.horaInicio} hrs.`}</p>
+                        <button className="button button-dark-outline">Ver más</button>
                     </div>
                 </div>
             </div>

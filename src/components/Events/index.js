@@ -1,7 +1,6 @@
 import { rematesData } from '../../data/remates'
 import { Title } from '../Title'
 import { Card } from './components/Card'
-import './styles.scss'
 
 export const Events = () => {
     return (
