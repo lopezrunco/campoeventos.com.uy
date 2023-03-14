@@ -1,9 +1,9 @@
 export const rematesData = [
     {
-        dia: '14',
+        dia: '15',
         mes: '03',
-        horaInicio: '09:00',
-        horaCierre: '19:00',
+        horaInicio: '01:00',
+        horaCierre: '24:00',
         titulo: 'Pantalla Uruguay',
         lugar: 'Hotel Cottage',
         medios: 'TV + Internet',
@@ -14,10 +14,10 @@ export const rematesData = [
         publicado: true
     },
     {
-        dia: '08',
+        dia: '14',
         mes: '03',
-        horaInicio: '17:13',
-        horaCierre: '22:00',
+        horaInicio: '01:00',
+        horaCierre: '24:00',
         titulo: 'Pantalla Uruguay',
         lugar: 'Hotel Conrad',
         medios: 'TV',
@@ -28,7 +28,7 @@ export const rematesData = [
         publicado: true
     },
     {
-        dia: '13',
+        dia: '15',
         mes: '03',
         horaInicio: '07:00',
         horaCierre: '18:49',
@@ -42,10 +42,10 @@ export const rematesData = [
         publicado: true
     },
     {
-        dia: '23',
+        dia: '14',
         mes: '03',
-        horaInicio: '06:00',
-        horaCierre: '22:00',
+        horaInicio: '01:00',
+        horaCierre: '24:00',
         titulo: '265º Plaza Rural',
         lugar: 'Hotel Cottage',
         medios: 'Internet',
@@ -56,7 +56,7 @@ export const rematesData = [
         publicado: true
     },
     {
-        dia: '07',
+        dia: '15',
         mes: '03',
         horaInicio: '09:00',
         horaCierre: '12:00',
@@ -70,7 +70,7 @@ export const rematesData = [
         publicado: true
     },
     {
-        dia: '13',
+        dia: '16',
         mes: '03',
         horaInicio: '08:13',
         horaCierre: '22:00',
@@ -84,7 +84,7 @@ export const rematesData = [
         publicado: true
     },
     {
-        dia: '07',
+        dia: '16',
         mes: '03',
         horaInicio: '09:00',
         horaCierre: '12:00',
@@ -98,10 +98,10 @@ export const rematesData = [
         publicado: true
     },
     {
-        dia: '07',
+        dia: '17',
         mes: '03',
         horaInicio: '09:00',
-        horaCierre: '12:00',
+        horaCierre: '23:00',
         titulo: 'Pantalla Uruguay',
         lugar: 'Hotel Cottage',
         medios: 'TV + Internet',
@@ -112,10 +112,10 @@ export const rematesData = [
         publicado: true
     },
     {
-        dia: '07',
+        dia: '17',
         mes: '03',
         horaInicio: '09:00',
-        horaCierre: '12:00',
+        horaCierre: '22:00',
         titulo: 'Pantalla Uruguay',
         lugar: 'Hotel Cottage',
         medios: 'TV + Internet',

@@ -1,3 +1,6 @@
 node_modules
 assets
 build
+.firebase
+.firebaserc
+firebase.json
