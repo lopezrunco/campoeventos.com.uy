@@ -28,7 +28,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/lopezrunco/campoeventos-web.git
+   git clone https://github.com/lopezrunco/campoeventos.com.uy.git
    ```
 2. Install NPM packages
    ```sh

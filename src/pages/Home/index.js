@@ -23,35 +23,21 @@ export const Home = () => {
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: .5 }}
+                transition={{ duration: 1 }}
                 viewport={{ once: true }}
             >
                 <Header menuItems={homeMenuItems} />
             </motion.div>
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: .5 }}
-                viewport={{ once: true }}
-            >
-                <Intro />
-            </motion.div>
+            <Intro />
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}
+                transition={{ duration: 1.4 }}
                 viewport={{ once: true }}
             >
                 <Live />
             </motion.div>
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}
-                viewport={{ once: true }}
-            >
-                <Events />
-            </motion.div>
+            <Events />
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
