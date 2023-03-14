@@ -32,19 +32,18 @@ export const Card = ({ element }) => {
             </div>
             {openModal && (
                 <div className="thumb-modal">
-                    <div className="content-wrapper">
+                    <div className="container">
                         <div className="row">
-                            <div className="col-lg-5 mb-4 mb-lg-0">
+                            <div className="col-lg-5 mb-4 mb-lg-0 event-image">
                                 <img src={`./assets/cartelera/${element.miniatura}`} alt={element.titulo} />
                             </div>
-                            <div className="col-lg-7">
+                            <div className="col-lg-7 event-description">
                                 <h2>{element.titulo}</h2>
-                                <div className="separator"></div>
-                                <p>{`${element.dia} de ${getMonth(element.mes)}, - ${element.horaInicio} hrs.`}</p>
-                                <p>{element.titulo}</p>
-                                <p>{element.lugar}</p>
-                                <p>{element.organiza}</p>
-                                <p>{element.remata}</p>
+                                <span className="event-date"><i class="fas fa-calendar-alt"></i> {`${element.dia} de ${getMonth(element.mes)} a las ${element.horaInicio} hs.`}</span>
+                                <span><b>Lugar: </b>{element.lugar}</span>
+                                <span><b>Remata: </b>{element.remata}</span>
+                                <span><b>Medios: </b>{element.medios}</span>
+                                <span><b>Organiza: </b>{element.organiza}</span>
                             </div>
                         </div>
                         <i className="fas fa-times close-icon" onClick={handleClick}></i>

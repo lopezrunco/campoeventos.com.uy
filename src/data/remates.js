@@ -3,7 +3,7 @@ export const rematesData = [
         dia: '14',
         mes: '03',
         horaInicio: '09:00',
-        horaCierre: '12:00',
+        horaCierre: '19:00',
         titulo: 'Pantalla Uruguay',
         lugar: 'Hotel Cottage',
         medios: 'TV + Internet',
