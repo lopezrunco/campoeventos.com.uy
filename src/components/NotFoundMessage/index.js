@@ -9,8 +9,8 @@ export const NotFoundMessage = () => {
                 </div>
                 <div className='col-xl-7'>
                     <h2>No encontrado</h2>
-                    <p>La página que estás buscando ha sido movida o eliminada de este sitio. <br />Por favor, vuelve a la página principal e intenta de nuevo.</p>
-                    <a className='button' href='/'>Inicio</a>
+                    <p>La página solicitada ha sido movida o eliminada de este sitio. <br />Por favor, regrese a la página principal e intente de nuevo.</p>
+                    <a className='button button-dark' href='/'>Inicio</a>
                 </div>
             </div>
         </article>
