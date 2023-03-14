@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
+import { Footer } from '../../components/Footer'
 import { NotFoundMessage } from '../../components/NotFoundMessage'
 
 export const NotFound = () => {
@@ -21,6 +22,7 @@ export const NotFound = () => {
                 transition={{ duration: 1.2 }}
                 viewport={{ once: true }}
             >
+                <Footer />
             </motion.div>
         </React.Fragment>
     )

@@ -1,6 +1,6 @@
 export const rematesData = [
     {
-        dia: '07',
+        dia: '14',
         mes: '03',
         horaInicio: '09:00',
         horaCierre: '12:00',

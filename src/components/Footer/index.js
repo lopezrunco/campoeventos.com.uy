@@ -1,33 +1,32 @@
 import { aboutData } from "../../data/about.js"
-import { footerLinks } from '../../data/footer-links'
+import './styles.scss'
 
 export const Footer = () => {
     return (
-        <article className="footer">
+        <footer>
             <div className="container">
                 <div className="row">
-                    <div className="col-12">
-                        <div className="social-icons">
-                            {aboutData.contactInfo.map((el, idx) => {
-                                return (
-                                    <div className="item" key={idx}>
-                                        <a href={el.link} title={el.info} target="_blank" rel="noreferrer">
-                                            <i className={el.iconClassname}></i>
-                                        </a>
-                                    </div>
-                                )
-                            })}
-
-                        </div>
-                        <div className="footer-menu">
-                            {footerLinks.map((linkEl, linkIdx) =>
-                                <small key={linkIdx}><a href={linkEl.link} target={linkEl.newTab
-                                    ? '_blank'
-                                    : '_self'} rel='noreferrer'>{linkEl.title}</a></small>)}
+                    <div className="col-lg-10 mb-3 mb-lg-0">
+                        <small>Copyright 2023 Campo Eventos. Todos los derechos reservados</small>
+                    </div>
+                    <div className="col-lg-2">
+                        <div className="social">
+                            {aboutData.contactInfo.map((el, i) =>
+                                <a
+                                    key={i}
+                                    href={el.link}
+                                    title={el.info}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="item"
+                                >
+                                    <i className={el.iconClassname}></i>
+                                </a>
+                            )}
                         </div>
                     </div>
                 </div>
             </div>
-        </article>
+        </footer>
     )
 }
